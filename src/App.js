@@ -3,9 +3,10 @@ import "./stylesheets/App.css";
 import "./stylesheets/Calculator.css";
 import "./components/Hook";
 
+
 // comment in the below line if you'd prefer to use hooks for this project
-// import Calculator from './components/Hook';
-import Calculator from "./components/Class";
+import Calculator from './components/Hook';
+//import Calculator from "./components/Class";
 
 const App = () => {
   return (
